@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task 2</title>
+    <style>
+        .nav-item, .nav-item_{
+            padding:0.5rem 1rem; border-right: 1px solid blue;
+        }
+        .nav-item:hover{
+            background-color: grey;
+            cursor: pointer;
+        }
+        .nav-item_:hover{
+            background-color: orange;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Horizontal Navigation Bar</h1>
+    <div style=" padding:0.5rem; border:1px solid black; padding-right:0px;max-width: 500px;">
+    <div style="display:flex; font-size: 20px; background-color: rgb(207, 206, 206); ">
+        <span class="nav-item">Home</span>
+        <span class="nav-item">Java</span>
+        <span class="nav-item">HTML</span>
+        <span class="nav-item">CSS</span></div>
+    </div>
+
+    <br><br><br><br>
+    <h1>Vertical Navigation Bar</h1>
+    <div style=" padding:0.5rem; border:1px solid black; padding-bottom:0px;max-width: 200px;">
+        <div style="display:flex; font-size: 20px; background-color: rgb(157, 212, 207); flex-direction: column; ">
+            <span class="nav-item_">Home</span>
+            <span class="nav-item_">Java</span>
+            <span class="nav-item_">HTML</span>
+            <span class="nav-item_">CSS</span></div>
+        </div>
+</body>
+</html> 
